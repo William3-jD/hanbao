@@ -1,0 +1,76 @@
+.cartBox{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 700rem;
+    height: 80rem;
+    border-radius: 30px;
+    background-color: #333;
+    bottom: 30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+.cartIconBox{
+    position: absolute;
+    width: 80rem;
+    bottom: -7rem;
+}
+
+.cartIcon{
+    width: 100%;
+    height: 100rem; 
+}
+.totalAmount{
+    text-align: center;
+    list-style: 36rem;
+    position: absolute;
+    width: 36rem;
+    height: 36rem;
+    border-radius: 50%;
+    background-color: #f00;
+    color: #fff;
+    font-size: 22rem;
+    right: -10rem;
+}
+.totalPrices{
+    display: flex;
+    align-items: center;
+    font-size: 36rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 120rem;
+}
+.noMeal{
+    display: flex;
+    align-items: center;
+    font-size: 36rem;
+    font-weight: bold;
+    color: #aaa;
+    margin-left: 120rem;
+}
+.totalPrices::before{
+    content: '￥';
+    font-size: 24rem;
+    /* font-weight: normal; */
+}
+.closeButton{
+    height: 80rem;
+    width: 165rem;
+    border-radius: 30px;
+    background-color: #fcbf49;
+    font-size: 32rem;
+    text-align: center;
+    line-height: 80rem;
+}
+.noMealButton{
+    height: 80rem;
+    width: 165rem;
+    border-radius: 30px;
+    background-color: #777;
+    color: #ccc;
+    font-size: 32rem;
+    text-align: center;
+    line-height: 80rem;
+}

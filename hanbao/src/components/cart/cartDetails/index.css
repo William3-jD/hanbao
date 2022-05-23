@@ -1,0 +1,33 @@
+.Cartdetails{
+    width: 750rem;
+    max-height: 1000rem;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    flex-flow: column;
+    bottom: 0;
+    padding-bottom: 125rem;
+    z-index: 99;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Cartdetails_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30rem;
+}
+.CartTitle{
+    font-size: 26rem;
+    font-weight: bold;
+    margin: 0;
+}
+.ClearCartdetails{
+    font-size: 24rem;
+    color: #aaa;
+}
+.ClearCartdetails span{
+    margin-left: 7rem;
+}
+.CartdetailsList{
+    overflow: auto;
+}

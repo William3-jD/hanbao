@@ -1,0 +1,49 @@
+.Confirm{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 520rem;
+    height: 250rem;
+    border-radius: 20px;
+    z-index: 9999;
+}
+.ConfirmTitle{
+    position: absolute;
+    /* background-color: #bfa; */
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 50rem;
+    font-size: 32rem;
+}
+.ConfirmBtn{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 50rem;
+    
+   
+}
+.ConfirmBtn button{
+    
+    width: 150rem;
+    height: 55rem;
+    border-radius: 70rem;
+}
+.ConfirmClear{
+    display: block;
+    border: 1px solid #ccc;
+    margin-left: 60rem;
+    background-color: #fff;
+}
+.ConfirmOk{
+    display: block;
+    border: none;
+    margin-right: 60rem;
+    background-color: #fcbf49;
+}

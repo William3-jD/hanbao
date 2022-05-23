@@ -1,0 +1,35 @@
+.Searchmeal{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    height: 100rem;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.searchInput{
+    width: 650rem;
+    height: 60rem;
+    border: none;
+    border-radius: 18px;
+    padding-left: 70rem;
+    font-size: 23rem;
+    font-weight: bold;
+    outline: none;
+    background-color: #f2f2f2;
+}
+.searchIcon{
+    position: absolute;
+    left: 20rem;
+    color: #000;
+    font-size: 36rem;
+}

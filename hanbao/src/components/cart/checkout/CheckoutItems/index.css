@@ -1,0 +1,32 @@
+.CheckoutItems{
+    margin: 0 20rem;
+    display: flex;
+}
+.CheckoutItemsImg{
+    width: 140rem;
+}
+.CheckoutItemsImg img{
+    width: 100%;
+}
+.CheckoutItemsBox{
+    flex: auto;
+    margin-left: 20rem;
+}
+.CheckoutItemsTitle{
+    font-size: 28rem;
+    font-weight: bold;
+}
+
+.CheckoutItemsDetail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20rem;
+}
+.CheckoutItemsPrices{
+    font-size: 28rem;
+    font-weight: bold;
+}
+.CheckoutItemsPrices::before{
+    content: '￥';
+    font-size: 24rem;
+}
